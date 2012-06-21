@@ -1,0 +1,30 @@
+<%inherit file="layout.html" />
+
+## provide definitions for blocks we want to redefine
+<%def name="title()">
+    The Random Box of Joy
+</%def>
+
+## now define the body of the template
+    <header>
+      <h1>The Random Box of Joy</h1>
+      <p><h2>Pandora fucked it up - we filled the box with fun!</h2></p>
+    </header>
+
+    <div id="content">
+
+      <p></p>
+
+      <p>
+        
+      </p>
+      
+      <form method="POST" action="/">
+        <fieldset>
+          <input name="q" />
+          <input type="submit" value="POP!" />
+        <fieldset>
+        <small>Enter your zip code and pop your next adventure</small>
+      </form>
+
+    </div>
